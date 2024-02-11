@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Project</title>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Parent Node Delete -->
+   <!-- <section class="px-10 py-3">
+        <ul id="item-container">
+            <li class="item">Item value</li>
+            <li class="item">item noise</li>
+            <li class="item">item song</li>
+            <li class="item">item valued</li>
+            
+        </ul>
+        <button id="addBtn" class="btn">Add Item</button>
+   </section> -->
+   <main class="container mx-auto px-10">
+        <section class="py-10"> 
+            <h3 class="text-7xl font-bold text-green-500 text-center">Digital Tasbih</h3>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
+                <div class="shadow-lg text-center space-y-4 py-8">
+                    <h4 class="text-xl font-bold text-yellow-400">Subhan Allah</h4>
+                    <h6 class="text-3xl font-bold" id="subhanAllahIncre"> 0 </h6>
+                    <button class="btn bg-green-400 hover:bg-green-400 text-white
+                     px-4 ml-2 font-bold" id="subhanAllahBtn">Increment</button>
+                    <button class="btn bg-red-500
+                     text-white hover:bg-red-500 px-4 ml-2 font-bold" id="subhanAllahDec">Decrement</button>
+                </div>
+                <div class="shadow-lg text-center space-y-4 py-8">
+                    <h4 class="text-xl font-bold text-yellow-400">Alhamdulillah</h4>
+                    <h6 class="text-3xl font-bold" id="alhamdulillahCount"> 0 </h6>
+                    <button class="btn bg-green-400 hover:bg-green-400 text-white
+                     px-4 ml-2 font-bold" id="alhamdulillahBtn">Increment</button>
+                    <button class="btn bg-red-500
+                     text-white hover:bg-red-500 px-4 ml-2 font-bold"
+                      id="alhamdulliahDec">Decrement</button>
+                </div>
+                <div class="shadow-lg text-center space-y-4 py-8">
+                    <h4 class="text-xl font-bold text-yellow-400">AllahuAkber</h4>
+                    <h6 class="text-3xl font-bold" id="allahuakberCount"> 0 </h6>
+                    <button class="btn bg-green-400 hover:bg-green-400 text-white
+                     px-4 ml-2 font-bold" id="allahuAkberInc">Increment</button>
+                    <button class="btn bg-red-500
+                     text-white hover:bg-red-500 px-4 ml-2 font-bold"
+                      id="allahuAkberDec">Decrement</button>
+                </div>
+            </div>
+            <div class="mt-8 flex justify-center items-center">
+                <button class="btn bg-yellow-500 font-bold hover:bg-yellow-500
+                 text-white" id="resetBtn">Reset All Tashhib</button>
+            </div>
+        </section>
+   </main>
+    <script src="Js/dom.js"></script>
+</body>
+</html>
